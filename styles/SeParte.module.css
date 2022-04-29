@@ -1,0 +1,76 @@
+#titulo{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700px bold;
+    margin-top: 125px;
+    color: #3888A3;
+    line-height: 86px;
+}
+
+#subtitulo{
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 400px;
+    color: #151439;
+    opacity: 40%;
+    margin-top: 25px;
+}
+
+#etiqueta{
+    margin-top: 30px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 700px bold;
+    opacity: 80%;
+}
+
+.inputCorreo{
+    width: 370px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color:#EBEAED;
+    color: #151439;
+    opacity: 40%;
+}
+
+.inputNombre{
+    width: 270px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color:#EBEAED;
+    color: #151439;
+    opacity: 40%;
+    margin-bottom: 76px;
+}
+
+.textArea{
+    width: 370px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: #EBEAED;
+    color: #151439;
+    resize: none;
+    opacity: 40%;
+}
+
+#enviarCV{
+    width: 90px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: #3888A3;
+    color: white;
+    margin-left: 20px;
+}
+
+#inputFile{
+    width: auto;
+    height: 50px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    border: 2px solid #EBEAED;
+    background: #E8E8E8;
+}
