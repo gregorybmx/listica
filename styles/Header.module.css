@@ -1,0 +1,32 @@
+#headerLogo{
+    height: 39px;
+    width: 150px;
+}
+
+#header{
+    height: 80px;
+    background-color: #3888A3;
+    top: 0%;
+    bottom: 0%;
+}
+
+#navbar{
+    background-color: #3888A3;
+    height: 80px;
+}
+
+#navbarNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navText{
+    font-size: 18px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;    
+    margin-right: 50px;
+}

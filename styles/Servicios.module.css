@@ -1,0 +1,23 @@
+#body{
+    background-color: #9FC248;
+    padding-bottom: 100px;    
+}
+
+#titulo{
+    text-align: center;
+    padding-top: 72px;
+    font-size: 48px;
+    font-family: Montserrat;
+    color: white;
+}
+
+#contenido{
+    margin-top: 64px;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+
+#fila{
+    display: flex;
+    align-items: center;
+}

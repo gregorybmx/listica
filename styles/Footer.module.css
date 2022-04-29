@@ -1,0 +1,37 @@
+#footer{
+    width: auto;
+    height: 130px;
+    background-color: #3888A3;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    height: 39px;
+    width: 150px;
+    margin-left: 117px;
+    margin-top: 59px;
+    margin-bottom: 51px;
+}
+
+#footerText{
+    color: white;
+    font-size: 14px;
+    font-weight: 700px bold;
+    font-family: Montserrat;
+    margin-left: 309px;
+    margin-bottom: 54px;
+    margin-top: 57px;
+    margin-right: 221px;
+}
+
+#redesFooter{
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    opacity: 20%;
+}
+
+#redesFooter:hover{
+    opacity: 100;
+}
