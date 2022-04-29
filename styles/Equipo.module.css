@@ -1,0 +1,54 @@
+#Contenido{
+    width:auto;
+    height:658px;
+    background-color: #F1AC40;
+}
+
+#Carousel{
+    margin: auto;
+}
+
+#titulo{
+    font-family: Montserrat;
+    font-size: 48px bold;
+    color: white;
+    text-align: center;
+    padding-top: 73px;
+    padding-bottom: 140px;
+}
+
+#textItem{
+    padding-left: 414px;
+    padding-right: 414px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700px bold;
+}
+
+#EquipoImagen{
+    border-radius: 100px;
+    width: 120px;
+    height: 124px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#nombreColaborador{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500px;
+    color: white;
+    text-align: center;
+}
+
+#puesto{
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 700px bold;
+    text-align: center;
+    color: #151439;
+    opacity: 19%;
+    margin-top: 12px;
+}

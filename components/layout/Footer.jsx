@@ -15,13 +15,19 @@ const Footer = () => {
             </div>
             <div>
                 <Link href='https://www.facebook.com/listica.costarica'>
-                    <img id={styles['redesFooter']} src='/img/Footer/fbLogo.png' alt='Logotipo'/>
+                    <a target="_blank">
+                        <img id={styles['redesFooter']} src='/img/Footer/fbLogo.png' alt='Logotipo'/>
+                    </a>
                 </Link>
                 <Link href='https://www.instagram.com/listica.costarica/'>
-                    <img id={styles['redesFooter']} src='/img/Footer/instaLogo.png' alt='Logotipo'/>
+                    <a target="_blank">
+                        <img id={styles['redesFooter']} src='/img/Footer/instaLogo.png' alt='Logotipo'/>
+                    </a>
                 </Link>
                 <Link href='https://www.linkedin.com/company/listica/'>
-                    <img id={styles['redesFooter']} src='/img/Footer/linkedinLogo.png' alt='Logotipo'/>
+                    <a target="_blank">
+                        <img id={styles['redesFooter']} src='/img/Footer/linkedinLogo.png' alt='Logotipo'/>
+                    </a>
                 </Link>
             </div>
         </div>

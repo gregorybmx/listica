@@ -9,6 +9,7 @@ export const Home = () => {
     <Layout>
       <Carousel name= 'Carousel'/>
       <Servicios/>
+      <Equipo name='Equipo'/>
     </Layout>
   )
 }
