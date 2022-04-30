@@ -3,13 +3,13 @@
     height: 130px;
     background-color: #3888A3;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 }
 
-#logo{
-    left: 117px;
-    top: 59px;
-    margin-bottom: 51px;
+#logoWrap{
+    margin-left: 117px;
+    margin-bottom: 54px;
+    margin-top: 57px;
 }
 
 #footerText{
@@ -23,10 +23,22 @@
     margin-right: 221px;
 }
 
+#redesContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 54px;
+    margin-top: 57px;
+}
+
 #redesFooter{    
     opacity: 20%;
 }
 
 #redesFooter:hover{
-    opacity: 100;
+    opacity: 100%;
+}
+
+#redesWrap{
+    box-sizing: content-box;
+    margin-left: 30px;
 }
