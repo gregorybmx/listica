@@ -1,7 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import styles from '../../styles/Header.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Header = () => {
     return (
@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="container-fluid">
                     <Link href="#">
                         <a className="navbar-brand">
-                            <img id={styles['headerLogo']} src='/img/logo.png' alt='Logotipo'/>
+                            <Image id='logo' src='/img/logo.png' alt='Logotipo' height="39px" width="150px"/>
                         </a>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
