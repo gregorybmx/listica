@@ -1,6 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import styles from '../styles/Carousel.module.css'
+import Image from 'next/image'
 
 const Carousel = ({name}) => {
     return (
@@ -14,20 +13,20 @@ const Carousel = ({name}) => {
                 
             </div>
             <div className="carousel-inner">
-                <div className="carousel-item active">
-                    <img id={styles['imagenCarrousel']} src="/img/Carousel/Carousel1.png" className="d-block w-100" alt="..."/>
+                <div className="carousel-item active ">
+                    <Image src='/img/Carousel/Carousel1.png' layout="responsive" width={1400} height={700} alt="..."/>
                 </div>
                 <div className="carousel-item">
-                    <img id={styles['imagenCarrousel']} src="/img/Carousel/Carousel2.png" className="d-block w-100" alt="..."/>
+                    <Image src="/img/Carousel/Carousel2.png" layout="responsive" width={1400} height={700} alt="..."/>
                 </div>
                 <div className="carousel-item">
-                    <img id={styles['imagenCarrousel']} src="/img/Carousel/Carousel3.png" className="d-block w-100" alt="..."/>
+                    <Image src="/img/Carousel/Carousel3.png" layout="responsive" width={1400} height={700} alt="..."/>
                 </div>
                 <div className="carousel-item">
-                    <img id={styles['imagenCarrousel']} src="/img/Carousel/Carousel4.png" className="d-block w-100" alt="..."/>
+                    <Image src="/img/Carousel/Carousel4.png" layout="responsive" width={1400} height={700} alt="..."/>
                 </div>
                 <div className="carousel-item">
-                    <img id={styles['imagenCarrousel']} src="/img/Carousel/Carousel5.png" className="d-block w-100" alt="..."/>
+                    <Image src="/img/Carousel/Carousel5.png" layout="responsive" width={1400} height={700} alt="..."/>
                 </div>
 
 
