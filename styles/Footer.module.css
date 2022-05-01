@@ -7,6 +7,8 @@
 }
 
 #logoWrap{
+    width: 150px;
+    height: 40px;
     margin-left: 117px;
     margin-bottom: 54px;
     margin-top: 57px;
@@ -17,17 +19,20 @@
     font-size: 14px;
     font-weight: 700px bold;
     font-family: Montserrat;
-    margin-left: 309px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 54px;
     margin-top: 57px;
-    margin-right: 221px;
 }
 
 #redesContainer{
+    width: 200px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 54px;
     margin-top: 57px;
+    margin-right: 115px;
 }
 
 #redesFooter{    
