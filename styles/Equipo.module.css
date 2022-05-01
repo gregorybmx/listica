@@ -6,6 +6,7 @@
 
 #Carousel{
     margin: auto;
+    justify-content: center;
 }
 
 #titulo{
@@ -28,8 +29,11 @@
 
 #EquipoImagen{
     border-radius: 100px;
+}
+
+#contenedorImagenEq{
     width: 120px;
-    height: 124px;
+    height: 124px;    
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;

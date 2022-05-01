@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import React from 'react'
+import Image from 'next/image'
 import styles from '../styles/Equipo.module.css'
 
 const Equipo = ({name}) => {
@@ -12,7 +12,9 @@ const Equipo = ({name}) => {
                         <div className="carousel-item active">
                             <div>
                                 <p id={styles['textItem']}>You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.</p>
-                                <img id={styles['EquipoImagen']} src="/img/Equipo/dwayne.jpeg" className="d-block" alt="..."/>
+                                <div id={styles['contenedorImagenEq']}>
+                                    <Image id={styles['EquipoImagen']} src="/img/Equipo/dwayne.jpeg" width={120} height={124} className="d-block" alt="..."/>
+                                </div>
                                 <p id={styles['nombreColaborador']}>Dwayne Johnson </p>
                                 <p id={styles['puesto']}>FULL STACK</p>
                                 
@@ -21,7 +23,9 @@ const Equipo = ({name}) => {
                         <div className="carousel-item">
                             <div>
                                 <p id={styles['textItem']}>You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.</p>
-                                <img id={styles['EquipoImagen']} src="/img/Equipo/john.jpg" className="d-block" alt="..."/>
+                                <div id={styles['contenedorImagenEq']}>
+                                    <Image id={styles['EquipoImagen']} width={120} height={124} src="/img/Equipo/john.jpg" className="d-block" alt="..."/>
+                                </div>
                                 <p id={styles['nombreColaborador']}>John Cena </p>
                                 <p id={styles['puesto']}>DATABASE ADMINISTRATOR</p>
                             </div>
@@ -29,7 +33,9 @@ const Equipo = ({name}) => {
                         <div className="carousel-item">
                             <div>
                                 <p id={styles['textItem']}>You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.</p>
-                                <img id={styles['EquipoImagen']} src="/img/Equipo/hunter.png" className="d-block" alt="..."/>
+                                <div id={styles['contenedorImagenEq']}>
+                                    <Image id={styles['EquipoImagen']} width={120} height={124} src="/img/Equipo/hunter.png" className="d-block" alt="..."/>
+                                </div>
                                 <p id={styles['nombreColaborador']}>Paul Levesque </p>
                                 <p id={styles['puesto']}>FRONT END DEVELOPER</p>
                             </div>
