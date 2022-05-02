@@ -17,7 +17,7 @@ export const Home = () => {
       </section>
 
       <section id='Equipo'>
-        <Equipo name='Equipo'/>
+        <Equipo/>
       </section>
 
       <section id='Contactenos'>
