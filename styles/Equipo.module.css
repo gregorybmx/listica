@@ -1,42 +1,47 @@
-#Contenido{
-    width:auto;
-    height:658px;
+#body{
+    width: auto;
+    height: 658px;
     background-color: #F1AC40;
+    justify-content: center;
 }
 
-#Carousel{
+#carousel{
     margin: auto;
     justify-content: center;
 }
 
 #titulo{
-    font-family: Montserrat;
-    font-size: 48px bold;
-    color: white;
+    padding-top: 72px;
     text-align: center;
-    padding-top: 73px;
-    padding-bottom: 140px;
+    font-size: 48px bold !important;
+    font-weight: 700 bold;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: white;
 }
 
-#textItem{
+#itemText{
+    margin-top: 42px;
     padding-left: 414px;
     padding-right: 414px;
-    color: white;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
     font-size: 22px;
-    font-weight: 700px bold;
+    line-height: 32px;
+    color: white;
 }
 
-#EquipoImagen{
-    border-radius: 100px;
-}
-
-#contenedorImagenEq{
+#contenedorImagen{
     width: 120px;
     height: 124px;    
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+}
+
+#image{
+    border-radius: 100%;
 }
 
 #nombreColaborador{
