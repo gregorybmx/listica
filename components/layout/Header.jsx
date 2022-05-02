@@ -18,17 +18,26 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id={styles['navbarNav']}>
                         <ul className="navbar-nav">
+
                             <li className="nav-item">
-                            <a id={styles['navText']} className="nav-link active" aria-current="page" href="#">Carousel</a>
+                                <Link href='#Carousel'> 
+                                    <a id={styles['navText']} className="nav-link active">Carousel</a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                            <a id={styles['navText']} className="nav-link active" href="#">Servicios</a>
+                                <Link href='#Servicios'> 
+                                    <a id={styles['navText']} className="nav-link active">Servicios</a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                            <a id={styles['navText']} className="nav-link active" href="#">Equipo</a>
+                                <Link href="#Equipo"> 
+                                    <a id={styles['navText']} className="nav-link active" >Equipo</a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                            <a id={styles['navText']} className="nav-link active" href="#">Contáctenos</a>
+                                <Link href="#Contactenos">
+                                    <a id={styles['navText']} className="nav-link active">Contáctenos</a>
+                                </Link>
                             </li>
                         </ul>
                     </div>

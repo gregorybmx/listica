@@ -8,10 +8,21 @@ import Contactenos from '../components/Contactenos'
 export const Home = () => {
   return (
     <Layout>
-      <Carousel name= 'Carousel'/>
-      <Servicios/>
-      <Equipo name='Equipo'/>
-      <Contactenos/>
+      <section id='carousel'>
+        <Carousel name= 'Carousel'/>
+      </section>
+
+      <section id='Servicios'>
+        <Servicios/>
+      </section>
+
+      <section id='Equipo'>
+        <Equipo name='Equipo'/>
+      </section>
+
+      <section id='Contactenos'>
+        <Contactenos/>
+      </section>
     </Layout>
   )
 }
