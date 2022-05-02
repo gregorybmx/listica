@@ -36,7 +36,7 @@ const Equipo = () => {
                         <div id={styles['contenedorImagen']}>                      
                             <Image id={styles['image']} src="/img/Equipo/hunter.png" width={120} height={124} alt="Imagen Perfil Paul"/>
                         </div>
-                        <div id={styles['nombreColaborador']}>pAUL Levezque</div>
+                        <div id={styles['nombreColaborador']}>Paul Levesque</div>
                         <div id={styles['puesto']}>FRONT-END DEVELOPER</div>
                     </div>
                 </div>
