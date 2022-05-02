@@ -6,7 +6,9 @@ const Layout = (props) => {
 const {children} = props;
     return (
         <div>
-            <Header/>
+            <section id='home'>
+                <Header/>
+            </section>
             {children}
             <Footer/>
         </div>
