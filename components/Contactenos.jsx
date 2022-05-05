@@ -5,7 +5,7 @@ import styles from '../styles/Contactenos.module.css'
 
 const Contactenos = () => {
   return (    
-    <div id={styles['contenido']}>
+    <div id={styles['contenido']} className="d-flex justify-content-between">
       <div>
         <Hablemos/>
       </div>

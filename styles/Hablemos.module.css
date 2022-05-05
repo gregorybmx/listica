@@ -1,14 +1,11 @@
 #titulo{
     font-family: Montserrat;
-    font-size: 48px;
-    font-weight: 700px bold;
     margin-top: 125px;
     color: #9FC248;
     line-height: 86px;
 }
 
 #subtitulo{
-    font-size: 16px;
     font-family: DM Sans;
     font-weight: 400px;
     color: #151439;
@@ -19,8 +16,6 @@
 #etiqueta{
     margin-top: 30px;
     font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 700px bold;
     opacity: 80%;
 }
 
@@ -59,9 +54,12 @@
 #enviar{
     width: 90px;
     height: 50px;
-    border-radius: 100px;
-    border: none;
     background-color: #9FC248;
     color: white;
     margin-left: 20px;
+    opacity: 80%;
+}
+
+#enviar:hover{
+    opacity: 100%;
 }
