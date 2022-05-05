@@ -1,43 +1,37 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/Equipo.module.css'
+import MiembroEquipo from './MiembroEquipo'
 
 const Equipo = () => {
     return (
-        <div id={styles['body']}>
-            <h1 id={styles['titulo']}>EQUIPO</h1>
-            <h1 id={styles['titulo']}>&quot;</h1>
+        <div id={styles['body']} className=" w-100 justify-content-center">
+            <h1 id={styles['titulo']} className="text-center fs-1 fw-bold">EQUIPO</h1>
+            <h1 id={styles['titulo']} className="text-center fs-1 fw-bold">&quot;</h1>
             <div id="equipo" className="carousel slide" data-bs-ride="carousel">
-                <div id={styles['carousel']} className="carousel-inner">
+                <div className="carousel-inner m-auto justify-content-center">
                     <div className="carousel-item active">
-                        <div id={styles['itemText']}>
-                            You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.
-                        </div>
-                        <div id={styles['contenedorImagen']}>
-                            <Image id={styles['image']} src="/img/Equipo/dwayne.jpeg" width={120} height={124} alt="Imgen Perfil Dwayne"/>
-                        </div>
-                        <div id={styles['nombreColaborador']}>Dwayne Johnson</div>
-                        <div id={styles['puesto']}>FULL STACK</div>
+                        <MiembroEquipo text='You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.'
+                            image='/img/Equipo/dwayne.jpeg'
+                            nombre= 'Dwayne Johnson'
+                            puesto='FULL STACK'
+                        />
                     </div>
+
                     <div className="carousel-item">
-                    <div id={styles['itemText']}>
-                            You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.
-                        </div>
-                        <div id={styles['contenedorImagen']}>
-                            <Image id={styles['image']} src="/img/Equipo/john.jpg" width={120} height={124} alt="Imagen Perfil John"/>
-                        </div>
-                        <div id={styles['nombreColaborador']}>John Cena</div>
-                        <div id={styles['puesto']}>DATABASE ADMINISTRATOR</div>
+                        <MiembroEquipo text='You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.'
+                            image='/img/Equipo/john.jpg'
+                            nombre= 'John Cena'
+                            puesto='DATABASE ADMINISTRATOR'
+                        />
                     </div>
+
                     <div className="carousel-item">
-                        <div id={styles['itemText']}>
-                            You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.
-                        </div>
-                        <div id={styles['contenedorImagen']}>                      
-                            <Image id={styles['image']} src="/img/Equipo/hunter.png" width={120} height={124} alt="Imagen Perfil Paul"/>
-                        </div>
-                        <div id={styles['nombreColaborador']}>Paul Levesque</div>
-                        <div id={styles['puesto']}>FRONT-END DEVELOPER</div>
+                        <MiembroEquipo text='You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.'
+                            image='/img/Equipo/hunter.png'
+                            nombre= 'Paul Levesque'
+                            puesto='FRONT-END DEVELOPER'
+                        />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#equipo" data-bs-slide="prev">

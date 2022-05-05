@@ -6,10 +6,8 @@
 }
 
 #placeholder{    
-    justify-content: space-around;
     width: 370px;
     height: 270px;
-    border-radius: 10px;
     margin-left: 30px;
     margin-top: 30px;
 }
@@ -22,10 +20,8 @@
 }
 
 #titulo{
-    font-weight: 700px bold;
     font-family: Montserrat;
     color: #000000;
-    font-size: 14px;
     margin-top: 28px;
 }
 

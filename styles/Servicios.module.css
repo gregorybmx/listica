@@ -4,9 +4,7 @@
 }
 
 #titulo{
-    text-align: center;
     padding-top: 72px;
-    font-size: 48px;
     font-family: Montserrat;
     color: white;
 }
@@ -15,9 +13,4 @@
     margin-top: 64px;
     margin-left: 115px;
     margin-right: 115px;
-}
-
-#fila{
-    display: flex;
-    align-content: space-between;
 }

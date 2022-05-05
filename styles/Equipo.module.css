@@ -1,63 +1,12 @@
 #body{
-    width: auto;
     height: 658px;
     background-color: #F1AC40;
     justify-content: center;
 }
 
-#carousel{
-    margin: auto;
-    justify-content: center;
-}
-
 #titulo{
     padding-top: 72px;
-    text-align: center;
-    font-size: 48px bold !important;
-    font-weight: 700 bold;
     font-family: 'Montserrat';
     font-style: normal;
     color: white;
-}
-
-#itemText{
-    margin-top: 42px;
-    padding-left: 414px;
-    padding-right: 414px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 32px;
-    color: white;
-}
-
-#contenedorImagen{
-    width: 120px;
-    height: 124px;    
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-}
-
-#image{
-    border-radius: 100%;
-}
-
-#nombreColaborador{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 500px;
-    color: white;
-    text-align: center;
-}
-
-#puesto{
-    font-size: 14px;
-    font-family: Montserrat;
-    font-weight: 700px bold;
-    text-align: center;
-    color: black;
-    opacity: 19%;
-    margin-top: 12px;
 }

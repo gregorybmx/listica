@@ -14,19 +14,19 @@ const Carousel = ({name}) => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active ">
-                    <Image src='/img/Carousel/Carousel1.png' layout="responsive" width={1400} height={700} alt="..."/>
+                    <Image src='/img/Carousel/Carousel1.png' layout="responsive" width={1400} height={700} alt="Imagen Informacion Listica"/>
                 </div>
                 <div className="carousel-item">
-                    <Image src="/img/Carousel/Carousel2.png" layout="responsive" width={1400} height={700} alt="..."/>
+                    <Image src="/img/Carousel/Carousel2.png" layout="responsive" width={1400} height={700} alt="Imagen Idear"/>
                 </div>
                 <div className="carousel-item">
-                    <Image src="/img/Carousel/Carousel3.png" layout="responsive" width={1400} height={700} alt="..."/>
+                    <Image src="/img/Carousel/Carousel3.png" layout="responsive" width={1400} height={700} alt="Imagen Diseñar"/>
                 </div>
                 <div className="carousel-item">
-                    <Image src="/img/Carousel/Carousel4.png" layout="responsive" width={1400} height={700} alt="..."/>
+                    <Image src="/img/Carousel/Carousel4.png" layout="responsive" width={1400} height={700} alt="Imagen Crear"/>
                 </div>
                 <div className="carousel-item">
-                    <Image src="/img/Carousel/Carousel5.png" layout="responsive" width={1400} height={700} alt="..."/>
+                    <Image src="/img/Carousel/Carousel5.png" layout="responsive" width={1400} height={700} alt="Imagen Resolver"/>
                 </div>
 
 
